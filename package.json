@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "esame-kb-italiano",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "App per studiare per l'esame del certificato KB italiano",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -12,7 +12,10 @@
     "dependencies": {
         "@sentry/browser": "^8.41.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.18.0",
+        "read-excel-file": "^5.6.1",
+        "xlsx": "^0.18.5"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
