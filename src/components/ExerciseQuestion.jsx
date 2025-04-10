@@ -49,7 +49,7 @@ const ExerciseQuestion = ({
                       ? 'bg-blue-500 border-blue-500 text-white' 
                       : 'border-gray-400'}`}
                 >
-                  {String.fromCharCode(66 + index)}
+                  {index + 1}
                 </div>
                 <span>{option}</span>
               </div>

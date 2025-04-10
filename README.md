@@ -26,7 +26,7 @@ Un'applicazione web per aiutare gli studenti a prepararsi per l'esame del certif
 L'applicazione consente di importare le domande da un file Excel con la seguente struttura:
 - Colonna A: Domanda
 - Colonne B, C, D: Tre opzioni di risposta
-- Colonna E: Indicatore della risposta corretta (1 per B, 2 per C, 3 per D)
+- Colonna E: Indicatore della risposta corretta (1, 2, 3)
 - Colonna F: Spiegazione della risposta corretta
 
 ## Tecnologie Utilizzate

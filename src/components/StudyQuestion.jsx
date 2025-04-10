@@ -26,7 +26,7 @@ const StudyQuestion = ({ question, showAnswer, onShowAnswer }) => {
               className="p-3 bg-gray-50 border border-gray-200 rounded-md flex items-start"
             >
               <div className="flex-shrink-0 w-6 h-6 rounded-full border border-gray-400 flex items-center justify-center mr-2">
-                {String.fromCharCode(66 + index)}
+                {index + 1}
               </div>
               <div>{option}</div>
             </div>
@@ -48,7 +48,7 @@ const StudyQuestion = ({ question, showAnswer, onShowAnswer }) => {
           <h3 className="font-medium text-green-700 mb-2">Risposta Corretta:</h3>
           <div className="flex items-start">
             <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-500 text-white border border-green-500 flex items-center justify-center mr-2">
-              {String.fromCharCode(66 + question.correctAnswerIndex)}
+              {question.correctAnswerIndex + 1}
             </div>
             <div>{question.options[question.correctAnswerIndex]}</div>
           </div>

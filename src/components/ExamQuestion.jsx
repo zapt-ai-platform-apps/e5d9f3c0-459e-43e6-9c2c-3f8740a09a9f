@@ -27,7 +27,7 @@ const ExamQuestion = ({
             <div className="flex items-start">
               <div className={`flex-shrink-0 w-6 h-6 rounded-full border flex items-center justify-center mr-3 mt-0.5
               ${selectedOption === index ? 'bg-blue-500 border-blue-500 text-white' : 'border-gray-400'}`}>
-                {String.fromCharCode(66 + index)}
+                {index + 1}
               </div>
               <span>{option}</span>
             </div>

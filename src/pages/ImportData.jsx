@@ -37,7 +37,7 @@ const ImportData = ({ onDataImported }) => {
         const question = row[0];
         const options = [row[1], row[2], row[3]].filter(Boolean);
         
-        // Excel column E contains a number 1-3 indicating which option is correct (B, C, or D)
+        // Excel column E contains a number 1-3 indicating which option is correct
         // We need to convert it to a 0-based index
         let correctAnswerIndex = 0;
         if (row[4] && !isNaN(Number(row[4]))) {
@@ -141,7 +141,7 @@ const ImportData = ({ onDataImported }) => {
       <ul className="list-disc pl-5 mb-6 space-y-2">
         <li>Colonna A: Domanda</li>
         <li>Colonna B, C, D: Opzioni di risposta</li>
-        <li>Colonna E: Indicatore della risposta corretta (1 per B, 2 per C, 3 per D)</li>
+        <li>Colonna E: Indicatore della risposta corretta (1, 2, 3)</li>
         <li>Colonna F: Spiegazione della risposta corretta</li>
       </ul>
       
